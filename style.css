@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 150px;
+        }
+        .box{
+            background-color: aliceblue;
+            border-radius: 8px;
+            width: auto;
+        }
+        label, h1, a{
+            color: black;
+            font-family: 'Original Surfer', cursive;
+        }
+        table{
+            padding: 20px;
+        }
+        input{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 8px 14px;
+        }
+        input[type=checkbox]{
+            width: 10%;
+        }
+        input[type=submit]{
+            background-color: chartreuse;
+            color: white;
+            border: none;
+        }
+        h1{
+            font-size: 32px;
+            text-align: center;
+            margin: 20px;
+        }
+        footer{
+            text-align: center;
+        }
+
+.carousel .carousel-item{
+    height: 500px;
+}
+
+.carousel-img{
+    min-height: 500px;
+    object-fit: cover;
+}
+
+.media img{
+    min-height: auto;
+}
+
+.table{
+    text-align: center;
+}
+
+.boxedit{
+    border-radius: 10px;
+    width: auto;
+    background-color: aliceblue;
+}
